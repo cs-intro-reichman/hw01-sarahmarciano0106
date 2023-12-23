@@ -5,6 +5,17 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// Put your code here	
+		int a = Integer.parseInt(args[0]) ;
+		int b = Integer.parseInt(args[1]) ;
+		int c = Integer.parseInt(args[2]) ;
+
+		int sum1 = a + b ;
+		int sum2 = b + c ; 
+		int sum3 = a + c ;
+
+		boolean t = (sum1>c && sum2>a && sum3>b) ;
+
+	System.out.println(a + " , " + b + " , " + c + " : " + t ) ;
+    	
 	}
 }
