@@ -16,8 +16,9 @@ public class Triangle {
 
 		boolean t = ((sum1 > c) && (sum2 > a) && (sum3 > b));
 
-	System.out.println(a + " , " + b + " , " + c + " : " + t);
+	System.out.println(a + ", " + b + ", " + c + ": " + t);
     
 
 	}
 }
+
