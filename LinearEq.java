@@ -4,6 +4,7 @@
  * computes x, and prints the result.
  * Treats the three arguments as well as the computed value as double values
  */
+
 public class LinearEq {
     public static void main(String[] args) { 
 
@@ -13,7 +14,6 @@ public class LinearEq {
 
     	double x = c - b ;
     	x = x / a ;
-    	
 
         System.out.println(a + " * x + " + b + " = "  c ) ;
         System.out.println(" x = " + x ) ;
